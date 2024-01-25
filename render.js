@@ -1,5 +1,7 @@
-import store from "./script";
+import store from "./store.js";
 function render() {
-  console.log(render);
+  addEventListener("DOMContentLoaded", (event) => {
+    console.log(store);
+  });
 }
 export default render;
