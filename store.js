@@ -3,7 +3,7 @@ const store = {
     {
       id: "1",
       title: "Complete Task A",
-      completed: false,
+      completed: true,
     },
     {
       id: "2",
